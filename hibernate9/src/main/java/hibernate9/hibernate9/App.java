@@ -11,7 +11,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello " );
+
      Session session=hibernate9config.getSessionFactory().openSession();
      Transaction tran=session.beginTransaction();
      address1 a=new address1();
